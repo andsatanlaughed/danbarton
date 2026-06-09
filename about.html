@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Dan Barton</title>
+  <meta name="description" content="71 years. Still learning. Still writing. Still laughing. The story of Dan Barton — pastor, chaplain, husband, GRAMPS." />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="sticky top-0 z-50 border-b border-ink/10 bg-paper/85 backdrop-blur-md">
+    <div class="container-page flex items-center justify-between py-3">
+      <a href="index.html" class="flex items-center gap-3">
+        <img src="images/logo-drb.jpg" alt="DRB monogram" class="h-11 w-11 rounded-full object-cover ring-1 ring-ink/15" />
+        <span class="leading-tight">
+          <span class="block font-serif text-xl font-semibold tracking-wide text-ink">Dan Barton</span>
+          <span class="block text-[11px] uppercase tracking-[0.18em] text-ink-muted">Where you find all things Dan</span>
+        </span>
+      </a>
+      <nav class="hidden items-center gap-8 md:flex">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link is-active">About</a>
+        <a href="writing.html" class="nav-link">Writing</a>
+        <a href="connect.html" class="btn-primary !px-5 !py-2">Connect</a>
+      </nav>
+      <button id="navToggle" class="md:hidden p-2 text-ink" aria-label="Open menu" aria-expanded="false">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h16" /></svg>
+      </button>
+    </div>
+    <div id="mobileNav" class="hidden border-t border-ink/10 bg-paper md:hidden">
+      <nav class="container-page flex flex-col gap-1 py-3">
+        <a href="index.html" class="nav-link py-2">Home</a>
+        <a href="about.html" class="nav-link py-2 is-active">About</a>
+        <a href="writing.html" class="nav-link py-2">Writing</a>
+        <a href="connect.html" class="nav-link py-2">Connect</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="section">
+      <div class="container-page">
+        <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+          <figure class="order-1 mx-auto w-full max-w-md animate-fade-up lg:order-none">
+            <div class="overflow-hidden rounded-2xl border border-ink/10 shadow-photo">
+              <picture>
+                <source srcset="images/headshot-now.webp" type="image/webp" />
+                <img src="images/headshot-now.jpg" alt="Dan Barton — outdoor headshot, white hair and beard, smiling" class="h-full w-full object-cover" loading="eager" />
+              </picture>
+            </div>
+          </figure>
+          <div>
+            <span class="eyebrow">About Dan</span>
+            <h1 class="mt-3 font-serif text-4xl font-semibold leading-[1.08] text-ink sm:text-5xl">71 Years. Still Learning. Still Writing. <span class="text-brand-red">Still Laughing.</span></h1>
+            <p class="mt-6 font-script text-3xl text-brand-red-deep">Pull up a chair. This is going to get good.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BIO ===================== -->
+    <section class="section bg-paper-deep">
+      <div class="container-page">
+        <div class="prose-warm mx-auto max-w-prose">
+          <p>My name is Dan Barton. Most people who know me well call me <strong class="font-semibold text-brand-red">GRAMPS</strong> — partly because I have six grandchildren, and partly because that's just who I've become.</p>
+          <p>I was a pastor for 35 years across six states. A Hospital Chaplain for 16. A Hospice Chaplain for 15. I've sat with people in the hardest moments of their lives — and I've had more than a few hard moments of my own.</p>
+          <p>I've been married to Kathy for 47 years. <em>That's not a footnote. That's a credential.</em></p>
+          <p>In 2026 I'm doing something I probably should have done years ago: putting it all down in writing. Books. Growth concepts. Stories. Poems. A vlog eventually. A company — And Satan Laughed, LLC — that has made exactly zero dollars so far and is perfectly okay with that for now.</p>
+          <p>I write for men who feel disqualified. Men who look at their past and think their God dreams are over. They aren't. I know because God has repurposed the skeletons in MY closet.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MISSION ===================== -->
+    <section class="section bg-ink text-paper">
+      <div class="container-page">
+        <div class="mx-auto max-w-prose text-center">
+          <span class="eyebrow !text-brand-gold-light">The Mission</span>
+          <p class="mt-6 font-serif text-2xl leading-relaxed sm:text-3xl">
+            . . . And Satan Laughed! exists to inspire Christ followers who feel like they have been marginalized or disqualified, to re-capture their God-given dreams — enabling them to share their <span class="text-brand-gold-light">HIStory</span> and impact their world.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PHOTO STRIP ===================== -->
+    <section class="section">
+      <div class="container-page">
+        <div class="text-center">
+          <span class="eyebrow">A Life in Three Frames</span>
+          <div class="accent-rule mt-5"></div>
+        </div>
+        <div class="mt-10 grid gap-6 sm:grid-cols-3">
+          <!-- The Early Years — TODO: drop in young Dan with hearts backdrop -->
+          <figure class="text-center">
+            <div class="aspect-[3/4] overflow-hidden rounded-xl border border-ink/10 bg-paper-deep shadow-photo sepia-[.2]">
+              <div class="flex h-full w-full flex-col items-center justify-center gap-2 bg-gradient-to-br from-paper-shade to-paper-deep text-center">
+                <span class="font-serif text-2xl text-ink-soft">Younger Dan</span>
+                <span class="text-xs uppercase tracking-widest text-ink-muted">photo coming</span>
+              </div>
+            </div>
+            <figcaption class="mt-3 font-script text-2xl text-brand-red-deep">The Early Years</figcaption>
+          </figure>
+          <!-- The Pastor Years -->
+          <figure class="text-center">
+            <div class="aspect-[3/4] overflow-hidden rounded-xl border border-ink/10 shadow-photo">
+              <picture>
+                <source srcset="images/headshot-close.webp" type="image/webp" />
+                <img src="images/headshot-close.jpg" alt="Dan Barton in his pastor years — trimmed white hair and beard, smiling" class="h-full w-full object-cover" loading="lazy" />
+              </picture>
+            </div>
+            <figcaption class="mt-3 font-script text-2xl text-brand-red-deep">The Pastor Years</figcaption>
+          </figure>
+          <!-- Now -->
+          <figure class="text-center">
+            <div class="aspect-[3/4] overflow-hidden rounded-xl border border-ink/10 shadow-photo">
+              <picture>
+                <source srcset="images/now.webp" type="image/webp" />
+                <img src="images/now.jpg" alt="Dan Barton now — full white hair and beard, big smile" class="h-full w-full object-cover" loading="lazy" />
+              </picture>
+            </div>
+            <figcaption class="mt-3 font-script text-2xl text-brand-red-deep">Now</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA ===================== -->
+    <section class="section bg-paper-deep">
+      <div class="container-page text-center">
+        <h2 class="font-serif text-3xl font-semibold text-ink sm:text-4xl">There's more to your story than you think.</h2>
+        <div class="mt-7 flex flex-wrap items-center justify-center gap-4">
+          <a href="writing.html" class="btn-primary">See What I'm Writing</a>
+          <a href="connect.html" class="btn-outline">Let's Talk</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="border-t border-ink/10 bg-paper">
+    <div class="container-page py-12">
+      <div class="flex flex-col items-center gap-4 text-center">
+        <img src="images/logo-drb.jpg" alt="DRB monogram" class="h-12 w-12 rounded-full object-cover ring-1 ring-ink/15" />
+        <p class="font-script text-2xl text-brand-red-deep">#WhereGodRepurposesSkeletons</p>
+        <nav class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-ink-soft">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="writing.html" class="nav-link">Writing</a>
+          <a href="connect.html" class="nav-link">Connect</a>
+        </nav>
+        <p class="mt-2 text-xs uppercase tracking-wider text-ink-muted">© 2026 And Satan Laughed, LLC &nbsp;|&nbsp; Dan Barton &nbsp;|&nbsp; Jefferson, GA</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

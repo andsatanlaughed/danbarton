@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+  }
+  ::selection {
+    @apply bg-brand-gold/40 text-ink;
+  }
+  /* Headings default to the display serif */
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  /* Layout */
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-6 sm:px-8;
+  }
+  .section {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+
+  /* Eyebrow / kicker label */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.22em] text-brand-red;
+  }
+
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3 text-sm font-semibold uppercase tracking-wider transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold focus-visible:ring-offset-2 focus-visible:ring-offset-paper;
+  }
+  .btn-primary {
+    @apply btn bg-brand-red text-paper shadow-card hover:bg-brand-red-deep hover:-translate-y-0.5;
+  }
+  .btn-outline {
+    @apply btn border border-ink/25 text-ink hover:border-brand-red hover:text-brand-red;
+  }
+
+  /* Card */
+  .card {
+    @apply rounded-2xl border border-ink/10 bg-white/60 p-7 shadow-card backdrop-blur-sm;
+  }
+
+  /* Decorative hand-drawn underline accent */
+  .accent-rule {
+    @apply mx-auto h-px w-24 bg-gradient-to-r from-transparent via-brand-gold to-transparent;
+  }
+
+  /* Nav link */
+  .nav-link {
+    @apply relative text-sm font-medium tracking-wide text-ink/80 transition-colors hover:text-brand-red;
+  }
+  .nav-link.is-active {
+    @apply text-brand-red;
+  }
+
+  /* Rich text body */
+  .prose-warm p {
+    @apply text-lg leading-relaxed text-ink-soft;
+  }
+  .prose-warm p + p {
+    @apply mt-5;
+  }
+}

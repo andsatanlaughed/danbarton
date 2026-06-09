@@ -1,0 +1,13 @@
+{
+  "name": "danbarton.me",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static site for danbarton.me — locally built Tailwind CSS.",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./style.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
