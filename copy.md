@@ -15,11 +15,11 @@
 ### PHOTO SECTION — TOP OF PAGE
 Two photos, side by side, centered.
 
-LEFT PHOTO: The small vintage photo — young Dan and Kathy, circa 1978.
-RIGHT PHOTO: The Valentine's Day photo — Dan and Kathy in front of red hearts, Kathy holding roses, 2026.
+LEFT PHOTO: The small vintage photo — young Dan, circa 1978.
+RIGHT PHOTO: A current photo of Dan, 2026.
 
 Caption underneath both photos:
-"1978 → 2026. Same two people. Better story."
+"1978 → 2026. Same man. Better story."
 
 ---
 
@@ -120,7 +120,7 @@ A Hospital Chaplain for 16. A Hospice Chaplain for 15.
 I've sat with people in the hardest moments of their lives —
 and I've had more than a few hard moments of my own.
 
-I've been married to Kathy for 47 years.
+I've been married for 47 years.
 That's not a footnote. That's a credential.
 
 In 2026 I'm doing something I probably should have done years ago:

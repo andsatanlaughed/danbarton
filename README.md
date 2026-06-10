@@ -55,7 +55,7 @@ A few photos referenced in the copy weren't available yet. They render as styled
 placeholders so the layout is complete — drop the real photos in and update the
 markup:
 
-- **Home hero, left frame** — the 1978 vintage photo of young Dan & Kathy.
+- **Home hero, left frame** — the 1978 vintage photo of young Dan.
   See the `TODO` comment in `index.html`.
 - **About photo strip** — "The Early Years" (younger Dan, hearts backdrop).
   See `about.html`.
