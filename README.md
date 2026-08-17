@@ -2,7 +2,7 @@
 
 Static website for Dan Barton — *"Where you find all things Dan Barton."*
 
-Four hand-built HTML pages styled with a locally compiled Tailwind CSS build. No
+Five hand-built HTML pages styled with a locally compiled Tailwind CSS build. No
 framework, no runtime — just static files you can host anywhere (Netlify, GitHub
 Pages, S3, Cloudflare Pages, plain Apache/Nginx).
 
@@ -13,7 +13,40 @@ Pages, S3, Cloudflare Pages, plain Apache/Nginx).
 | `index.html`   | Home    |
 | `about.html`   | About   |
 | `writing.html` | Writing |
+| `follow.html`  | Follow  |
 | `connect.html` | Connect |
+
+### Adding a new platform to the Follow page
+
+`follow.html` collects Dan's off-site presence: the Substack newsletter and the
+Skool communities. Dan posts a daily GROWTH CONCEPT across ~20 platforms, so the
+list will grow. There's an HTML comment near the bottom of `follow.html`
+(`MORE PLATFORMS GO HERE`) marking where new cards go — copy the markup pattern
+from an existing Skool card, then re-run `npm run build`.
+
+## Page snapshots (`images/snap-*`)
+
+Each link on the Follow page is fronted by a screenshot of the destination page,
+so the whole card acts as a visual button (`.snap-card` / `.snap-shot` in
+`src/input.css`). Those screenshots are generated, not hand-made:
+
+```bash
+./tools/snapshots.sh    # recapture all five, write images/snap-*.{jpg,webp}
+npm run build
+```
+
+Two things to know:
+
+- **They go stale.** These are other people's live pages. When Skool or Substack
+  redesigns, the thumbnails silently start looking wrong. Re-run the script every
+  few months, or whenever a card looks off. Add new targets to the `TARGETS`
+  array — each entry is `name|url|crop-box`, where the crop box is
+  `left,top,right,bottom` against the raw 1280x800 capture. Keep the box 16:9
+  (e.g. 1120x630) so it maps cleanly onto the 800x450 output.
+- **Only ever capture PUBLIC pages.** A Skool *community feed* shows real
+  members' names, posts, and prayer requests — never screenshot one. Always use
+  the `/about` page. (Note that `skool.com/kingdomculture` redirects to the feed;
+  the about page is `skool.com/kingdomculture/about`.)
 
 ## Develop & Build
 
