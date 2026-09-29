@@ -18,11 +18,14 @@ Pages, S3, Cloudflare Pages, plain Apache/Nginx).
 
 ### Adding a new platform to the Follow page
 
-`follow.html` collects Dan's off-site presence: the Substack newsletter and the
-Skool communities. Dan posts a daily GROWTH CONCEPT across ~20 platforms, so the
+`follow.html` collects Dan's off-site presence: the Substack newsletter, the
+Skool communities, and his social profiles (X, Facebook, Instagram, LinkedIn).
+Dan posts a daily GROWTH CONCEPT across ~20 platforms, so the
 list will grow. There's an HTML comment near the bottom of `follow.html`
-(`MORE PLATFORMS GO HERE`) marking where new cards go — copy the markup pattern
-from an existing Skool card, then re-run `npm run build`.
+(`MORE PLATFORMS GO HERE`) marking where new cards go. Social profiles use icon
+cards (copy one from the "On Social" grid); pages that are publicly viewable
+without a login use snapshot cards (copy a Skool card and add a snapshot target).
+Then re-run `npm run build`.
 
 ## Page snapshots (`images/snap-*`)
 
