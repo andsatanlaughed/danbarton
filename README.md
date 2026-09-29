@@ -19,7 +19,8 @@ Pages, S3, Cloudflare Pages, plain Apache/Nginx).
 ### Adding a new platform to the Follow page
 
 `follow.html` collects Dan's off-site presence: the Substack newsletter, the
-Skool communities, and his social profiles (X, Facebook, Instagram, LinkedIn).
+Skool communities, and his social profiles (X, Facebook, Instagram, LinkedIn,
+YouTube).
 Dan posts a daily GROWTH CONCEPT across ~20 platforms, so the
 list will grow. There's an HTML comment near the bottom of `follow.html`
 (`MORE PLATFORMS GO HERE`) marking where new cards go. Social profiles use icon
