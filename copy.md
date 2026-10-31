@@ -83,11 +83,14 @@ Home of the book in progress. Redemption stories. God doesn't waste a single ske
 
 COMING SOON:
 
-GRAMPS.me
+GRAMPS.top
 Growth concepts, humor, and the wisdom that only comes from 72 years of living.
 
 Growth-Concept.com
 100 growth concepts on resilience. The backbone of the book "God's Got Your Back."
+
+SantaGRAMPS.com
+Real beard, real joy. Book Santa GRAMPS for Christmas parties, family gatherings, photos and community events across Northeast Georgia.
 
 PictureOrStory.com
 A platform for Christians to share their own transformational God moments. Submit your story. Read someone else's. Be changed by both.
