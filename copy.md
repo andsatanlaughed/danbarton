@@ -38,7 +38,7 @@ Jefferson, Georgia — 2026
 ### OPENING PARAGRAPH
 *(Large, warm, centered on page)*
 
-I'm 71. I've been a factory worker, a pastor, a chaplain, a husband, and a grandfather.
+I'm 72. I've been a factory worker, a pastor, a chaplain, a husband, and a grandfather.
 I write for men who feel like God forgot their file —
 because I've been that man.
 Stick around. There's more to your story than you think.
@@ -84,7 +84,7 @@ Home of the book in progress. Redemption stories. God doesn't waste a single ske
 COMING SOON:
 
 GRAMPS.me
-Growth concepts, humor, and the wisdom that only comes from 71 years of living.
+Growth concepts, humor, and the wisdom that only comes from 72 years of living.
 
 Growth-Concept.com
 100 growth concepts on resilience. The backbone of the book "God's Got Your Back."
@@ -107,7 +107,7 @@ A platform for Christians to share their own transformational God moments. Submi
 Use the professional outdoor headshot — white hair, white beard, green background, big smile. Place it large, top of page.
 
 ### HEADLINE
-71 Years. Still Learning. Still Writing. Still Laughing.
+72 Years. Still Learning. Still Writing. Still Laughing.
 
 ### BIO
 *(Paste this exactly)*
@@ -224,7 +224,7 @@ I'll always be straight with you about which is which.
 *(Place a simple contact form here)*
 
 Closing line:
-I'm 71 and I'm just getting started.
+I'm 72 and I'm just getting started.
 That ought to tell you something.
 
 ---
