@@ -83,7 +83,7 @@ Home of the book in progress. Redemption stories. God doesn't waste a single ske
 
 COMING SOON:
 
-GRAMPS.top
+GRAMPS.me
 Growth concepts, humor, and the wisdom that only comes from 71 years of living.
 
 Growth-Concept.com
